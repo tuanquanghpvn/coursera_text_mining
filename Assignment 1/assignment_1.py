@@ -98,7 +98,6 @@ def get_time_format_by_string():
                         # print("\n")
                         result.append((idx, time_str))
                         idxs.append(idx)
-                    # continue
                 elif pattern_index == 2:
                     time_str = convert_time(time_str)
                     if idx not in idxs:
@@ -106,7 +105,6 @@ def get_time_format_by_string():
                         # print("\n")
                         result.append((idx, time_str))
                         idxs.append(idx)
-                    # continue
                 elif pattern_index == 3:
                     # print("Pattern Index: ", pattern_index)
                     # print("Idx: ", idx)
@@ -118,7 +116,6 @@ def get_time_format_by_string():
                         # print("\n")
                         result.append((idx, time_str))
                         idxs.append(idx)
-                    # continue
     return result
 
 
